@@ -7,7 +7,7 @@ from .forms import CreateNewTask, CreateNewProject
 
 
 def index(request):
-    title = 'Django Course!!'
+    title = 'Proyecto final practica profesional 2'
     return render(request, 'index.html', {
         'title': title
     })
